@@ -51,4 +51,8 @@ class Collatz {
     protected function findTotalStoppingTimeFromSequence($sequence) {
         return count($sequence) - 1;
     }
+
+    protected function sayHello() {
+        return "Hello there!";
+    }
 }
