@@ -1,0 +1,15 @@
+.data {
+    padding: 24px 0px;
+}
+
+.data__body {
+    padding: 0px 48px;
+}
+
+.code {
+    display: block;
+    padding: 24px;
+    border-radius: 6px;
+    background-color: #475569;
+    color: #e2e8f0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP - HW3</title>
+    <link rel="stylesheet" href="css/null.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components/form.css">
+    <link rel="stylesheet" href="css/sections/settings.css">
+    <link rel="stylesheet" href="css/sections/data.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="content">
+            <section class="settings">
+                <div class="container">
+                    <div class="settings__body">
+                        <h1 class="settings__title">Settings for <span class="settings__title-code">3x+1</span> problem</h1>
+                        <form action="result.php" class="settings__form form" method="POST">
+                            <div class="form__group">
+                                <label for="start" class="form__label">Start *</label>
+                                <input name="start" id="start" type="number" class="form__input" value="5" placeholder="Please, type in your starting number ...">
+                            </div>
+                            <div class="form__group">
+                                <label for="end" class="form__label">End *</label>
+                                <input name="end" id="end" type="number" class="form__input" value="10" placeholder="Please, type in your ending number ...">
+                            </div>
+                            <input type="submit" value="Calculate" class="form__submit">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

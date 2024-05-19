@@ -1,0 +1,27 @@
+.settings {
+    padding: 24px 0px;
+}
+
+.settings__body {
+    padding: 0px 48px;
+}
+
+.settings__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #1e293b;
+    margin-bottom: 16px;
+}
+
+.settings__title-code {
+    padding: 1px 5px;
+    background-color: #4f46e5;
+    border-radius: 4px;
+    color: #eef2ff;
+}
+
+.settings__form {
+    border-top: 2px solid #cbd5e18f;
+    padding-top: 24px;
+}
